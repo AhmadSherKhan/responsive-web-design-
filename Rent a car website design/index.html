@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+<header>
+    <div class="header1">
+      <a href="#" id="menubtn"> <i class="fas fa-bars"></i></a>
+        <a href="#" class="logo"> <i class="fas fa-car"></i></a>
+
+        <form action="">
+          <input type="search" name="" placeholder="search here" id="search">
+          <label for="search" class="fas fa-search"></label>
+        </form>
+
+      <div class="btns">
+        <a href="#" id="signupbtn" >sign up</a>
+        <a href="#" id="loginbtn" >sign in</a>
+      </div>
+    </div>
+
+    <div class="header2">
+
+      <nav class="navbar">
+        <a href="">home</a>
+        <a href="">ride</a>
+        <a href="">service</a>
+        <a href="">about</a>
+        <a href="">review</a>
+     </nav>
+
+    </div>
+</header>
+
+<!-- home section starts -->
+<section class="home" id="home">
+
+<div class="content">
+        <h3>looking <span>to</span></h3>
+        <h4>rent a car</h4>
+        <p>Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit. Excepturi.</p>    
+        <a href="#" class="btn" >download app</a>
+        <a href="#" class="btn" >book now</a>
+</div>
+
+</section>
+
+
+<!-- signup form starts -->
+
+<section class="signupform">
+      <div id="closeloginbtn"> <i class="fas fa-times"></i></div>
+
+    <div class="container">
+        <div class="title">Registration</div>
+        <div class="content">
+          <form action="#">
+            <div class="user-details">
+    
+              <div class="input-box">
+                <span class="details">Full Name</span>
+                <input type="text" placeholder="Enter your name" required>
+              </div>
+    
+              <div class="input-box">
+                <span class="details">Username</span>
+                <input type="text" placeholder="Enter your username" required>
+              </div>
+    
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input type="text" placeholder="Enter your email" required>
+              </div>
+    
+              <div class="input-box">
+                <span class="details">Phone Number</span>
+                <input type="text" placeholder="Enter your number" required>
+              </div>
+    
+              <div class="input-box">
+                <span class="details">Password</span>
+                <input type="text" placeholder="Enter your password" required>
+              </div>
+    
+              <div class="input-box">
+                <span class="details">Confirm Password</span>
+                <input type="text" placeholder="Confirm your password" required>
+              </div>
+    
+            </div>
+    
+            <div class="gender-details">
+              <input type="radio" name="gender" id="dot-1">
+              <input type="radio" name="gender" id="dot-2">
+              <input type="radio" name="gender" id="dot-3">
+    
+              <span class="gender-title">Gender</span>
+              
+              <div class="category">
+                <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Male</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Female</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Prefer not to say</span>
+                </label>
+              </div>
+            </div>
+            <div class="button">
+              <input type="submit" value="Register">
+            </div>
+          </form>
+        </div>
+      </div>
+
+</section>
+
+<!-- log in form starts -->
+<section class="loginform">
+    <div id="closeloginform"> <i class="fas fa-times"></i></div>
+
+<div class="container">
+    <div class="forms">
+        <div class="form login">
+            <span class="title">Login</span>
+
+            <form action="#">
+                <div class="input-field">
+                    <input type="text" placeholder="Enter your email" required>
+                    <i class="uil uil-envelope icon"></i>
+                </div>
+                <div class="input-field">
+                    <input type="password" class="password" placeholder="Enter your password" required>
+                    <i class="uil uil-lock icon"></i>
+                    <i class="uil uil-eye-slash showHidePw"></i>
+                </div>
+
+                <div class="checkbox-text">
+                    <div class="checkbox-content">
+                        <input type="checkbox" id="logCheck">
+                        <label for="logCheck" class="text">Remember me</label>
+                    </div>
+                    
+                    <a href="#" class="text">Forgot password?</a>
+                </div>
+
+                <div class="input-field button">
+                    <input type="button" value="Login">
+                </div>
+            </form>
+
+            <div class="login-signup">
+                <span class="text">Not a member?
+                    <a href="#" class="text signup-link">Signup Now</a>
+                </span>
+            </div>
+        </div>
+</section>
+
+
+<!-- how to rent a ride explanation -->
+<section class="ride" data-aos="zoom-out-up" id="ride">
+
+  <div class="heading">
+    <span>how it works</span>
+    <h1>rent with 3 easy steps</h1>
+  </div> 
+  <div class="ridetank">
+
+    <div class="box">
+      <a href="#" class="btn"> <i class="fas fa-map-marker"></i></a>
+      <h3>choose location</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, praesentium pariatur voluptatem nam cum impedit ab!
+      </p>
+    </div>
+
+    <div class="box">
+      <a href="#" class="btn"> <i class="fas fa-calendar-check"></i></a>
+      <h3>Pick-up date</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, praesentium pariatur voluptatem nam cum impedit ab!
+      </p>
+    </div>
+
+    <div class="box">
+      <a href="#" class="btn"> <i class="fas fa-calendar"></i></a>
+      <h3>Return-date</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, praesentium pariatur voluptatem nam cum impedit ab!
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- booking secttion starts -->
+<section class="booking"  data-aos="zoom-out-up">
+  <div class="content">
+    <div class="heading">book a car</div>
+    <p> Car hire for any kind of trip <br> <span>Compare deals from the biggest car hire companies</span>  </p>
+    
+    <p>When you’re booking the car, you just need a debit or credit card.<br>
+      At the rental counter, you’ll need:
+          >Your passport <br>
+          >Your voucher <br>
+          >Each driver’s driving licence <br>
+          >The main driver’s credit card (some rental companies also accept debit cards, but most don’t).
+      </p>
+  </div>
+  <form action="#">
+    <div class="inputbox">
+        <span>location</span>
+        <input type="search" class="input" name="" placeholder="search places.." id="">
+    </div>
+
+    <div class="inputbox">
+        <span>pick-up date</span>
+        <input type="date" name="" class="input" id="">
+    </div>
+
+    <div class="inputbox">
+        <span>return date</span>
+        <input type="date" name="" class="input"  id="">
+    </div>
+    <input type="submit" class="btn" value="submit">
+
+    </form>
+</section>
+
+<!-- deal section -->
+<section class="deal" data-aos="flip-left">
+  
+    <div class="wrapper">
+
+      <div class="box box1">
+
+        <h3>Rent a car
+        </h3>
+        <p>  Car rentals save you from the worries of maintenance fee and depreciation loss. If you really don’t need a car every day and uses one on special occasions only, then, it is best for you to just rent so you will be saved from the burden of insurance fee, servicing
+        </p>
+        <a href="#">book a car
+        </a>
+      </div>
+
+      <div class="box box2">
+        <img src="images/icon-suvs.svg" alt="" srcset="">
+        <h3>Buy a service</h3>
+        <p>Regular car service is vital to your safety, only because it can nip any potential car issues in the bud before they become sure-fire problems. <br> This ensures that your car will not let you down when you need it the most. 
+        </p>
+        <a href="#">buy service</a>
+      </div>
+
+      <div class="box box3">
+        <img src="images/icon-luxury.svg" alt="" srcset="">
+        <h3>auto-mobile parts</h3>
+        <p>  To be the leading manufacturer of automotive parts as well as a one stop service for distributing automotive parts and branching, <br> the business line that is environmental friendly for sustainable growth for your auto-mobile
+        </p>
+        <a href="#">buy now</a>
+      </div>
+
+    </div>
+</section>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 300,
+          duration: 1000,
+      });
+      </script>
+</body>
+</html>
